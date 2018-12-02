@@ -8,7 +8,7 @@ public class ParkingGenerator {
     private final static Logger logger = Logger.getLogger(ParkingGenerator.class);
 
     private static int idCount = 0;
-    private static final int MAX_SPACES_COUNT = 20;
+    private static final int MAX_SPACES_COUNT = 50;
 
     private ParkingSpacePoolGenerator parkingSpacePoolGenerator = new ParkingSpacePoolGenerator();
 

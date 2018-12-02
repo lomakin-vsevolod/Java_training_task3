@@ -15,6 +15,7 @@ public class ParkingSpacePool {
     private final static Logger logger = Logger.getLogger(ParkingSpacePool.class);
 
     private final int SIZE;
+
     private final List<ParkingSpace> SPACES = new ArrayList<ParkingSpace>();
     private final Semaphore SEMAPHORE;
     private final Lock LOCK = new ReentrantLock();
@@ -75,5 +76,9 @@ public class ParkingSpacePool {
             LOCK.unlock();
         }
         return false;
+    }
+
+    public List<ParkingSpace> getSPACES() {
+        return SPACES;
     }
 }

@@ -11,7 +11,7 @@ import java.util.Random;
 public class ParkingSpacePoolGenerator {
     private final static Logger logger = Logger.getLogger(ParkingSpacePoolGenerator.class);
 
-    private static final int MAX_SPACES_COUNT = 20;
+    private static final int MAX_SPACES_COUNT = 50;
 
     private static final Random random = new Random();
 

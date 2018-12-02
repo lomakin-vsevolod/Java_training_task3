@@ -26,4 +26,8 @@ public class CarExecutor {
     public void shutdown(){
         executorService.shutdown();
     }
+
+    public boolean getTerminated(){
+        return executorService.isTerminated();
+    }
 }

@@ -14,7 +14,7 @@ public class CarGenerator {
 
     private static final int MAX_WAIT_TIME_MILLIS = 2000;
     private static final int MAX_PARKING_TIME_MILLIS = 400;
-    private static final int MAX_CAR_COUNT = 20;
+    private static final int MAX_CAR_COUNT = 100;
 
     private static final Random random = new Random();
     private static int idCount = 0;
@@ -23,6 +23,9 @@ public class CarGenerator {
 
     public CarGenerator(Parking parking){
         this.parking=parking;
+    }
+
+    public CarGenerator(){
     }
 
     public Car generateCar(int maxWaitTime, int maxParkingTime){

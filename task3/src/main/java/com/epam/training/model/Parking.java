@@ -23,6 +23,16 @@ public class Parking {
         this.spacePool = spacePool;
     }
 
+    public boolean checkEmptySpaces(){
+        boolean emptyParking = true;
+        for (ParkingSpace space : spacePool.getSPACES()){
+            if (space.isUsed()){
+                emptyParking = false;
+            }
+        }
+        return emptyParking;
+    }
+
     @Override
     public String toString() {
         return "Parking{" +
