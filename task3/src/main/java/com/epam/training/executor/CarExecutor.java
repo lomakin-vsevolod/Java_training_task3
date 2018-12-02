@@ -5,6 +5,7 @@ import com.epam.training.model.Car;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class CarExecutor {
 
@@ -29,5 +30,13 @@ public class CarExecutor {
 
     public boolean getTerminated(){
         return executorService.isTerminated();
+    }
+
+    public void awaitTermination(){
+        try {
+            executorService.awaitTermination(30, TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -11,12 +11,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/CarExecutorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/executor/CarExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,9 +84,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/epam/training/test/ParkingGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/training/test/CarExecutorBasicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/training/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/training/executor/CarExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/training/model/ParkingSpacePool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/training/model/Parking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/training/executor/CarExecutor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/training/test/CarExecutorTest.java" />
       </list>
     </option>
@@ -75,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,16 +164,37 @@
               <item name="training" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543779560545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543782854742" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -170,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CarExecutorTest.testExecuteWithParams">
+  <component name="RunManager" selected="TestNG.CarExecutorTest.testExecute">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.training.Runner" />
       <module name="task3" />
@@ -258,8 +308,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CarExecutorTest.testExecuteWithParams" />
         <item itemvalue="TestNG.CarExecutorTest.testExecute" />
+        <item itemvalue="TestNG.CarExecutorTest.testExecuteWithParams" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="TestNG.ParkingGeneratorTest.testGenerateCarWithParams" />
         <item itemvalue="TestNG.ParkingGeneratorTest.testGenerateParking" />
@@ -280,15 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 22h 17m 26s.xml">
-      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 22h 18m 47s.xml">
-      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 22h 19m 51s.xml">
-      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 22h 22m 17s.xml">
       <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
     </history-entry>
@@ -310,22 +351,26 @@
     <history-entry file="CarExecutorTest_testExecuteWithParams - 2018.12.02 at 22h 39m 25s.xml">
       <configuration name="CarExecutorTest.testExecuteWithParams" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 23h 07m 53s.xml">
+      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 23h 33m 44s.xml">
+      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CarExecutorTest_testExecute - 2018.12.02 at 23h 34m 47s.xml">
+      <configuration name="CarExecutorTest.testExecute" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1299682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13235295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3281372" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
@@ -333,14 +378,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281372" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -417,17 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/GeneratorBasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/GeneratorBasicTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/ParkingGeneratorBasicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -519,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/executor/CarExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/ParkingSpacePoolGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -545,28 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/CarExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/Runner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/model/Parking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -578,6 +582,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/training/executor/CarExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/training/test/CarExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

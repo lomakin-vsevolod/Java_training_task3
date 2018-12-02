@@ -21,9 +21,7 @@ public class CarExecutorTest extends CarExecutorBasicTest {
 
         carExecutor.execute(carsList);
         carExecutor.shutdown();
-        while(!carExecutor.getTerminated()){
-
-        }
+        carExecutor.awaitTermination();
 
         Assert.assertTrue(parking.checkEmptySpaces());
     }
@@ -40,9 +38,7 @@ public class CarExecutorTest extends CarExecutorBasicTest {
 
         carExecutor.execute(carsList);
         carExecutor.shutdown();
-        while(!carExecutor.getTerminated()){
-
-        }
+        carExecutor.awaitTermination();
 
         Assert.assertTrue(parking.checkEmptySpaces());
     }
